@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebShop Suite" data-provider-thread-count="3">
+    <test name="Cucumber Scenarios">
+        <classes>
+            <class name="com.codeTribeDemoWebShop.runners.TestNGRunner"/>
+        </classes>
+    </test>
+</suite>
